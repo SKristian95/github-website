@@ -1,6 +1,6 @@
-function addNum(a,b) {
+export function addNum(a, b) {
     return a + b;
 }
 
+// window.addNum = addNum;
 
-window.addNum = addNum;
